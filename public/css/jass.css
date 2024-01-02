@@ -1,0 +1,52 @@
+/* jass.css */
+
+/* some default styles */
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+  
+/* styles for elements */
+header {
+    background-color: #919c9d;
+    color: #ebe5dc;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+  
+/* style for body*/
+.user-info{
+    padding: 10px;
+}
+h4 {
+    color: black;
+}
+
+/* Style links */
+a {
+  color: #868365;
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+  
+/* layout */
+.container {
+  display: flex;
+}
+  
+.left-column {
+  width: 70%;
+}
+  
+.right-column {
+  width: 30%;
+}
+  
